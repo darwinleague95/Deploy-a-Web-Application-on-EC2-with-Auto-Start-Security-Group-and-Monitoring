@@ -136,5 +136,20 @@ Use systemctl status httpd to verify Apache service.
 
 Use CloudWatch to monitor CPU, memory, and disk usage over time.
 
+
+
+🔒 Why Elastic IP is Recommended:
+Normal EC2 IP changes every reboot
+
+Elastic IP is static and permanent (until you release it)
+
+Great for:
+
+Hosting web apps
+
+DNS routing
+
+Maintaining uptime
+
 📜 License
 MIT License © 2025 Darwin Alex
